@@ -11,8 +11,8 @@ fun second(inp: String): Int {
 }
 
 fun main() {
-    val testInput = File("src/main/kotlin/day00/test-input.txt").readText()
-    val input = File("src/main/kotlin/day00/input.txt").readText()
+    val testInput = File("src/main/resources/day00/test-input.txt").readText()
+    val input = File("src/main/resources/day00/input.txt").readText()
     println(first(testInput))
     println(second(testInput))
 }

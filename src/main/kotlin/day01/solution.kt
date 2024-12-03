@@ -20,8 +20,8 @@ fun second(inp: String): Int {
 }
 
 fun main() {
-    val testInput = File("src/main/kotlin/day01/test-input.txt").readText()
-    val input = File("src/main/kotlin/day01/input.txt").readText()
+    val testInput = File("src/main/resources/day01/test-input.txt").readText()
+    val input = File("src/main/resources/day01/input.txt").readText()
     println(first(input))
     println(second(input))
 }

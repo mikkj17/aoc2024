@@ -34,9 +34,9 @@ fun second(inp: String): Int {
 }
 
 fun main() {
-    val testInput = File("src/main/kotlin/day03/test-input.txt").readText()
-    val testInput2 = File("src/main/kotlin/day03/test-input2.txt").readText()
-    val input = File("src/main/kotlin/day03/input.txt").readText()
+    val testInput = File("src/main/resources/day03/test-input.txt").readText()
+    val testInput2 = File("src/main/resources/day03/test-input2.txt").readText()
+    val input = File("src/main/resources/day03/input.txt").readText()
     println(first(input))
     println(second(input))
 }

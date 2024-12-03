@@ -23,8 +23,8 @@ fun second(inp: String) = parse(inp)
     .size
 
 fun main() {
-    val testInput = File("src/main/kotlin/day02/test-input.txt").readText()
-    val input = File("src/main/kotlin/day02/input.txt").readText()
+    val testInput = File("src/main/resources/day02/test-input.txt").readText()
+    val input = File("src/main/resources/day02/input.txt").readText()
     println(first(input))
     println(second(input))
 }
